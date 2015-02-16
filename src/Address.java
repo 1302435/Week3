@@ -10,13 +10,15 @@
 public class Address {
     
     private String email;
+    private String city;
     
     /**
      * Constructor of an email address
      * @param email The email address
      */
-    public Address(String email) {
+    public Address(String email, String city) {
         this.email = email;
+        this.city = city;
     }
 
     /**

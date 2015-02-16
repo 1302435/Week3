@@ -19,8 +19,8 @@ public class Tester {
         
         Date date = new Date();
         
-        Address ad1 = new Address ("mark@hotmail.com");
-        Address ad2 = new Address ("corrie@hotmail.com");
+        Address ad1 = new Address ("mark@hotmail.com","Brechin");
+        Address ad2 = new Address ("corrie@hotmail.com","Aberdeen");
         
         Customer cust1 = new Customer(123,"Corrie","Robb",ad2);
         System.out.println(cust1.toString());
