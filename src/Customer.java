@@ -24,6 +24,17 @@ public class Customer extends Person {
     }
     
     /**
+     * Creates a customer
+     * @param custID The customers unique ID
+     * @param firstname the customers first name
+     * @param lastname the customers last name
+     */
+    public Customer(int custID, String firstname, String lastname) {
+        super(firstname, lastname);
+        this.custID = custID;
+    }
+    
+    /**
      * Gets the customers ID number
      * @return the customers ID
      */
