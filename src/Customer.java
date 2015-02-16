@@ -17,9 +17,10 @@ public class Customer extends Person {
      * @param custID The customers unique ID
      * @param firstname the customers first name
      * @param lastname the customers last name
+     * @param ad1 the email address
      */
-    public Customer(int custID, String firstname, String lastname) {
-        super(firstname, lastname);
+    public Customer(int custID, String firstname, String lastname, Address ad1) {
+        super(firstname, lastname, ad1);
         this.custID = custID;
     }
     

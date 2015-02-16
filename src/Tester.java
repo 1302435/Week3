@@ -19,10 +19,13 @@ public class Tester {
         
         Date date = new Date();
         
-        Customer cust1 = new Customer(123,"Corrie","Robb");
+        Address ad1 = new Address ("mark@hotmail.com");
+        Address ad2 = new Address ("corrie@hotmail.com");
+        
+        Customer cust1 = new Customer(123,"Corrie","Robb",ad2);
         System.out.println(cust1.toString());
         
-        Visitor visitor1 = new Visitor(date,"Charlotte","Wilson");
+        Visitor visitor1 = new Visitor(date,"Mark","Wilson",ad1);
         
     }
     

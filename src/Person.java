@@ -12,6 +12,7 @@ public class Person {
     
     private String firstname;
     private String lastname;
+    private Address ad1;
 
     
     /**
@@ -19,9 +20,10 @@ public class Person {
      * @param firstname first name of person
      * @param lastname last name of person
      */
-    public Person(String firstname, String lastname) {
+    public Person(String firstname, String lastname, Address ad1) {
         this.firstname = firstname;
         this.lastname = lastname;
+        this.ad1 = ad1;
     }
 
     /**

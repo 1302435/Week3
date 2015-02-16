@@ -21,8 +21,8 @@ public class Visitor extends Person {
      * @param firstname The first name of the visitor
      * @param lastname THe last name of the visitor
      */
-    public Visitor(Date visitDate, String firstname, String lastname) {
-        super(firstname, lastname);
+    public Visitor(Date visitDate, String firstname, String lastname, Address ad1) {
+        super(firstname, lastname, ad1);
         this.visitDate = visitDate;
     }
 
